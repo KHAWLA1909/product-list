@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>product list</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 
 <body>
@@ -14,7 +15,7 @@
         <div class="all-img-one">
             <div class="product">
                 <img src="img/image-waffle-desktop.jpg" alt="">
-                <button><img src="img/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                <button> Add to Cart</button>
                 <div class="product-list">
                     <span>Waffle</span>
                     <h3>Waffle with Berries</h3>
@@ -23,7 +24,7 @@
             </div>
             <div class="product">
                 <img src="img/image-creme-brulee-desktop.jpg" alt="">
-                <button><img src="img/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                <button>Add to Cart</button>
                 <div class="product-list">
                     <span>Crème Brûlée<span>  
                 <h3>Vanilla Bean Crème Brûlée</h3>  
@@ -32,7 +33,7 @@
         </div>  
         <div class="product">  
             <img src="img/image-macaron-desktop.jpg">  
-            <button class="btn"><img src="img/icon-add-to-cart.svg" alt=""> Add to Cart</button>  
+            <button class="btn"> Add to Cart</button>  
             <div class="product-list">  
                 <span>Macaron</span>
                     <h3>Macaron Mix of Five</h3>
@@ -43,7 +44,7 @@
         <div class="all-img-one">
             <div class="product">
                 <img src="img/image-tiramisu-desktop.jpg">
-                <button class="btn"><img src="img/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
                 <div class="product-list">
                     <span>Tiramisu</span>
                     <h3>Classic Tiramisu</h3>
@@ -52,7 +53,7 @@
             </div>
             <div class="product ">
                 <img src="img/image-meringue-desktop.jpg">
-                <button class="btn "> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
                 <div class="product-list">
                     <span> Baklava</span>
                     <h3>Pistachio Baklava</h3>
@@ -61,7 +62,7 @@
             </div>
             <div class="product ">
                 <img src="img/image-baklava-desktop.jpg ">
-                <button class="btn "><img src="img/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                <button class="btn">Add to Cart</button>
                 <div class="product-list">
                     <span> Pie</span>
                     <h3>Lemon Meringue Pie</h3>
@@ -72,7 +73,7 @@
         <div class="all-img-one ">
             <div class="product ">
                 <img src="img/image-cake-desktop.jpg">
-                <button class="btn "><img src="img/icon-add-to-cart.svg" alt=""> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
                 <div class="product-list">
                     <span>  Cake</span>
                     <h3>Red Velvet Cake</h3>
@@ -81,7 +82,7 @@
             </div>
             <div class="product ">
                 <img src="img/image-brownie-desktop.jpg">
-                <button class="btn "><img src="img/icon-add-to-cart.svg"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
                 <div class="product-list">
                     <span> Brownie</span>
                     <h3>Salted Caramel Brownie</h3>
@@ -90,7 +91,7 @@
             </div>
             <div class="product ">
                 <img src="img/image-panna-cotta-desktop.jpg">
-                <button class="btn "><img src="img/icon-add-to-cart.svg"> Add to Cart</button>
+                <button class="btn "> Add to Cart</button>
                 <div class="product-list">
                     <span> Panna Cotta</span>
                     <h3>Vanilla Panna Cotta </h3>
@@ -99,7 +100,27 @@
             </div>
         </div>
     </header>
-    <section>
+    <section class="section-confirmModal">
+        <div class="modal" id="confirmModal">
+            <img src="img/icon-order-confirmed.svg" alt="">
+            <h1>Order Confirmed</h1>
+            <h6>We hope you enjoy your food</h6>
+            <div>
+                <h6>Order totol
+                </h6>
+            </div>
+            <button class="btn">Start New Order</button>
+        </div>
+        <div class="Card-last">
+            <h3>Your Cart ()
+            </h3>
+            <div>
+                <h6>Order totol
+                </h6>
+            </div>
+            <button class="btn" id="confirmOrder" style="display: flex;">confirm Order</button>
+
+        </div>
     </section>
 
 </body>
